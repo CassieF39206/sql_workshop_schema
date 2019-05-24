@@ -22,7 +22,7 @@ CREATE TABLE weather (
   "cloud_cover" INTEGER,
   "events" VARCHAR(17),
   "wind_dir_degrees" INTEGER,
-  "zip" INTEGER
+  "zip" VARCHAR(10)
 );
 
 INSERT INTO weather
